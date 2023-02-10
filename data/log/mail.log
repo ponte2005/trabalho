@@ -1,0 +1,206 @@
+Feb  4 10:57:02 6a3dff0dcf80 dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 10:57:02 6a3dff0dcf80 dovecot: ssl-params: Generating SSL parameters
+Feb  4 10:58:41 6a3dff0dcf80 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  4 11:04:01 33390e32975a dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 11:04:01 33390e32975a dovecot: ssl-params: Generating SSL parameters
+Feb  4 11:04:26 33390e32975a dovecot: ssl-params: SSL parameters regeneration completed
+Feb  4 11:06:52 77205c629513 dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 11:06:52 77205c629513 dovecot: ssl-params: Generating SSL parameters
+Feb  4 11:06:54 77205c629513 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  4 11:24:50 94614c9dd9fa dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 11:24:50 94614c9dd9fa dovecot: ssl-params: Generating SSL parameters
+Feb  4 11:24:57 94614c9dd9fa dovecot: ssl-params: SSL parameters regeneration completed
+Feb  4 11:26:41 1d497218661e dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 11:26:41 1d497218661e dovecot: ssl-params: Generating SSL parameters
+Feb  4 11:27:16 b2d139037909 dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 11:27:16 b2d139037909 dovecot: ssl-params: Generating SSL parameters
+Feb  4 11:27:38 b2d139037909 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  4 11:28:35 896ab969a503 dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 11:28:35 896ab969a503 dovecot: ssl-params: Generating SSL parameters
+Feb  4 11:28:45 896ab969a503 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  4 11:29:29 5403b60e67a6 dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 11:29:29 5403b60e67a6 dovecot: ssl-params: Generating SSL parameters
+Feb  4 11:29:33 5403b60e67a6 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  4 11:46:48 90d5bf230cf8 dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 11:46:48 90d5bf230cf8 dovecot: ssl-params: Generating SSL parameters
+Feb  4 11:46:49 90d5bf230cf8 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  4 11:49:13 48ffd109f743 dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 11:49:13 48ffd109f743 dovecot: ssl-params: Generating SSL parameters
+Feb  4 11:49:29 48ffd109f743 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  4 12:03:09 f2c81835fe8f dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 12:03:09 f2c81835fe8f dovecot: ssl-params: Generating SSL parameters
+Feb  4 12:04:07 f2c81835fe8f dovecot: ssl-params: SSL parameters regeneration completed
+Feb  4 12:05:31 234ce00b2731 dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 12:05:31 234ce00b2731 dovecot: ssl-params: Generating SSL parameters
+Feb  4 12:06:23 d34af35c4d78 dovecot: master: Dovecot v2.2.9 starting up
+Feb  4 12:06:23 d34af35c4d78 dovecot: ssl-params: Generating SSL parameters
+Feb  4 12:06:42 d34af35c4d78 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  6 12:09:52 5057696a98ab dovecot: master: Dovecot v2.2.9 starting up
+Feb  6 12:09:53 5057696a98ab dovecot: ssl-params: Generating SSL parameters
+Feb  6 12:11:43 5057696a98ab dovecot: ssl-params: SSL parameters regeneration completed
+Feb  6 12:16:42 c3240ffbb09d dovecot: master: Dovecot v2.2.9 starting up
+Feb  6 12:16:42 c3240ffbb09d dovecot: ssl-params: Generating SSL parameters
+Feb  6 12:17:49 c3240ffbb09d dovecot: ssl-params: SSL parameters regeneration completed
+Feb  6 12:20:25 cedf5d6f79cb dovecot: master: Dovecot v2.2.9 starting up
+Feb  6 12:20:25 cedf5d6f79cb dovecot: ssl-params: Generating SSL parameters
+Feb  6 12:20:28 cedf5d6f79cb dovecot: ssl-params: SSL parameters regeneration completed
+Feb  9 12:57:41 ff4a13ff775c dovecot: master: Dovecot v2.2.9 starting up
+Feb  9 12:57:41 ff4a13ff775c dovecot: ssl-params: Generating SSL parameters
+Feb  9 12:57:50 ff4a13ff775c dovecot: ssl-params: SSL parameters regeneration completed
+Feb  9 13:01:35 d77fed7a56f1 dovecot: master: Dovecot v2.2.9 starting up
+Feb  9 13:01:35 d77fed7a56f1 dovecot: ssl-params: Generating SSL parameters
+Feb  9 13:01:40 d77fed7a56f1 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  9 13:05:15 45ffd64efc00 dovecot: master: Dovecot v2.2.9 starting up
+Feb  9 13:05:15 45ffd64efc00 dovecot: ssl-params: Generating SSL parameters
+Feb  9 13:06:20 45ffd64efc00 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  9 13:06:49 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<EUG+DUT0PgCsFQAC>
+Feb  9 13:06:49 45ffd64efc00 postfix/smtps/smtpd[656]: warning: dict_nis_init: NIS domain name not set - NIS lookups disabled
+Feb  9 13:06:49 45ffd64efc00 postfix/smtps/smtpd[656]: warning: cannot load 1024-bit DH parameters from file /etc/ssl/private/dhparams.pem: No such file or directory -- using compiled-in defaults
+Feb  9 13:06:49 45ffd64efc00 postfix/smtps/smtpd[656]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:06:49 45ffd64efc00 postfix/smtps/smtpd[656]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:06:49 45ffd64efc00 postfix/smtps/smtpd[656]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:06:49 45ffd64efc00 postfix/smtps/smtpd[656]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:06:49 45ffd64efc00 postfix/smtps/smtpd[656]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:06:50 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<dD7ZDUT0SgCsFQAC>
+Feb  9 13:06:54 45ffd64efc00 postfix/smtps/smtpd[656]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:06:54 45ffd64efc00 postfix/smtps/smtpd[656]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:06:54 45ffd64efc00 postfix/smtps/smtpd[656]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:06:54 45ffd64efc00 postfix/smtps/smtpd[656]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:06:54 45ffd64efc00 postfix/smtps/smtpd[656]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:06:54 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<QYcWDkT0UACsFQAC>
+Feb  9 13:07:14 45ffd64efc00 postfix/smtps/smtpd[656]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:07:14 45ffd64efc00 postfix/smtps/smtpd[656]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:07:14 45ffd64efc00 postfix/smtps/smtpd[656]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:07:14 45ffd64efc00 postfix/smtps/smtpd[656]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:07:14 45ffd64efc00 postfix/smtps/smtpd[656]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:07:18 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<CoCBD0T0egCsFQAC>
+Feb  9 13:07:22 45ffd64efc00 postfix/smtps/smtpd[656]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:07:22 45ffd64efc00 postfix/smtps/smtpd[656]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:07:22 45ffd64efc00 postfix/smtps/smtpd[656]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:07:22 45ffd64efc00 postfix/smtps/smtpd[656]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:07:22 45ffd64efc00 postfix/smtps/smtpd[656]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:07:22 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<zyW/D0T0hACsFQAC>
+Feb  9 13:07:42 45ffd64efc00 postfix/smtps/smtpd[656]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:07:42 45ffd64efc00 postfix/smtps/smtpd[656]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:07:42 45ffd64efc00 postfix/smtps/smtpd[656]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:07:42 45ffd64efc00 postfix/smtps/smtpd[656]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:07:42 45ffd64efc00 postfix/smtps/smtpd[656]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:07:43 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<1cf3EET08ACsFQAC>
+Feb  9 13:12:35 45ffd64efc00 postfix/smtps/smtpd[665]: warning: dict_nis_init: NIS domain name not set - NIS lookups disabled
+Feb  9 13:12:35 45ffd64efc00 postfix/smtps/smtpd[665]: warning: cannot load 1024-bit DH parameters from file /etc/ssl/private/dhparams.pem: No such file or directory -- using compiled-in defaults
+Feb  9 13:12:35 45ffd64efc00 postfix/smtps/smtpd[665]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:12:35 45ffd64efc00 postfix/smtps/smtpd[665]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:12:35 45ffd64efc00 postfix/smtps/smtpd[665]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:12:35 45ffd64efc00 postfix/smtps/smtpd[665]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:12:35 45ffd64efc00 postfix/smtps/smtpd[665]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:12:35 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<CNppIkT0HACsFQAC>
+Feb  9 13:15:30 45ffd64efc00 postfix/smtps/smtpd[672]: warning: dict_nis_init: NIS domain name not set - NIS lookups disabled
+Feb  9 13:15:30 45ffd64efc00 postfix/smtps/smtpd[672]: warning: cannot load 1024-bit DH parameters from file /etc/ssl/private/dhparams.pem: No such file or directory -- using compiled-in defaults
+Feb  9 13:15:30 45ffd64efc00 postfix/smtps/smtpd[672]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:15:30 45ffd64efc00 postfix/smtps/smtpd[672]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:15:30 45ffd64efc00 postfix/smtps/smtpd[672]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:15:30 45ffd64efc00 postfix/smtps/smtpd[672]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:15:30 45ffd64efc00 postfix/smtps/smtpd[672]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:16:11 45ffd64efc00 dovecot: pop3-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<EMNGL0T05gCsFQAC>
+Feb  9 13:16:14 45ffd64efc00 postfix/smtps/smtpd[672]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:16:14 45ffd64efc00 postfix/smtps/smtpd[672]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:16:14 45ffd64efc00 postfix/smtps/smtpd[672]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:16:14 45ffd64efc00 postfix/smtps/smtpd[672]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:16:14 45ffd64efc00 postfix/smtps/smtpd[672]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:16:14 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<8VN2L0T09gCsFQAC>
+Feb  9 13:16:15 45ffd64efc00 postfix/smtps/smtpd[672]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:16:15 45ffd64efc00 postfix/smtps/smtpd[672]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:16:15 45ffd64efc00 postfix/smtps/smtpd[672]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:16:15 45ffd64efc00 postfix/smtps/smtpd[672]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:16:15 45ffd64efc00 postfix/smtps/smtpd[672]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:16:16 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<anGKL0T0/ACsFQAC>
+Feb  9 13:17:39 45ffd64efc00 postfix/smtps/smtpd[672]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:39 45ffd64efc00 postfix/smtps/smtpd[672]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:17:39 45ffd64efc00 postfix/smtps/smtpd[672]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:17:39 45ffd64efc00 postfix/smtps/smtpd[672]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:39 45ffd64efc00 postfix/smtps/smtpd[672]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:40 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<BN2XNET0wgCsFQAC>
+Feb  9 13:17:41 45ffd64efc00 postfix/smtps/smtpd[672]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:41 45ffd64efc00 postfix/smtps/smtpd[672]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:17:41 45ffd64efc00 postfix/smtps/smtpd[672]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:17:41 45ffd64efc00 postfix/smtps/smtpd[672]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:41 45ffd64efc00 postfix/smtps/smtpd[672]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:41 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<5begNET0xgCsFQAC>
+Feb  9 13:17:42 45ffd64efc00 postfix/smtps/smtpd[672]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:42 45ffd64efc00 postfix/smtps/smtpd[672]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:17:42 45ffd64efc00 postfix/smtps/smtpd[672]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:17:42 45ffd64efc00 postfix/smtps/smtpd[672]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:42 45ffd64efc00 postfix/smtps/smtpd[672]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:42 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<F8CuNET01ACsFQAC>
+Feb  9 13:17:43 45ffd64efc00 postfix/smtps/smtpd[672]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:43 45ffd64efc00 postfix/smtps/smtpd[672]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:17:43 45ffd64efc00 postfix/smtps/smtpd[672]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:17:43 45ffd64efc00 postfix/smtps/smtpd[672]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:43 45ffd64efc00 postfix/smtps/smtpd[672]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:43 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<9ge9NET05ACsFQAC>
+Feb  9 13:17:43 45ffd64efc00 postfix/smtps/smtpd[672]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:43 45ffd64efc00 postfix/smtps/smtpd[672]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:17:43 45ffd64efc00 postfix/smtps/smtpd[672]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:17:43 45ffd64efc00 postfix/smtps/smtpd[672]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:17:43 45ffd64efc00 postfix/smtps/smtpd[672]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:35:01 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<b/ecckT0gACsFQAC>
+Feb  9 13:35:02 45ffd64efc00 postfix/smtps/smtpd[689]: warning: dict_nis_init: NIS domain name not set - NIS lookups disabled
+Feb  9 13:35:02 45ffd64efc00 postfix/smtps/smtpd[689]: warning: cannot load 1024-bit DH parameters from file /etc/ssl/private/dhparams.pem: No such file or directory -- using compiled-in defaults
+Feb  9 13:35:02 45ffd64efc00 postfix/smtps/smtpd[689]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:35:02 45ffd64efc00 postfix/smtps/smtpd[689]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:35:02 45ffd64efc00 postfix/smtps/smtpd[689]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:35:02 45ffd64efc00 postfix/smtps/smtpd[689]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:35:02 45ffd64efc00 postfix/smtps/smtpd[689]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:35:02 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<8qOwckT0iACsFQAC>
+Feb  9 13:35:26 45ffd64efc00 postfix/smtps/smtpd[689]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:35:26 45ffd64efc00 postfix/smtps/smtpd[689]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:35:26 45ffd64efc00 postfix/smtps/smtpd[689]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:35:26 45ffd64efc00 postfix/smtps/smtpd[689]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:35:26 45ffd64efc00 postfix/smtps/smtpd[689]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:35:26 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<0/0edET0HACsFQAC>
+Feb  9 13:35:39 45ffd64efc00 postfix/smtps/smtpd[689]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:35:39 45ffd64efc00 postfix/smtps/smtpd[689]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:35:39 45ffd64efc00 postfix/smtps/smtpd[689]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:35:39 45ffd64efc00 postfix/smtps/smtpd[689]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:35:39 45ffd64efc00 postfix/smtps/smtpd[689]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:35:40 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<tFPrdET0lACsFQAC>
+Feb  9 13:36:29 45ffd64efc00 postfix/smtps/smtpd[689]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:36:29 45ffd64efc00 postfix/smtps/smtpd[689]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:36:29 45ffd64efc00 postfix/smtps/smtpd[689]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:36:29 45ffd64efc00 postfix/smtps/smtpd[689]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:36:29 45ffd64efc00 postfix/smtps/smtpd[689]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:36:31 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<gk/6d0T0eACsFQAC>
+Feb  9 13:36:32 45ffd64efc00 postfix/smtps/smtpd[689]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:36:32 45ffd64efc00 postfix/smtps/smtpd[689]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:36:32 45ffd64efc00 postfix/smtps/smtpd[689]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:36:32 45ffd64efc00 postfix/smtps/smtpd[689]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:36:32 45ffd64efc00 postfix/smtps/smtpd[689]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:36:32 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<UOwOeET0fgCsFQAC>
+Feb  9 13:36:33 45ffd64efc00 postfix/smtps/smtpd[689]: connect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:36:33 45ffd64efc00 postfix/smtps/smtpd[689]: SSL_accept error from my_lb.trabalho_fo-nw[172.21.0.2]: -1
+Feb  9 13:36:33 45ffd64efc00 postfix/smtps/smtpd[689]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb  9 13:36:33 45ffd64efc00 postfix/smtps/smtpd[689]: lost connection after CONNECT from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:36:33 45ffd64efc00 postfix/smtps/smtpd[689]: disconnect from my_lb.trabalho_fo-nw[172.21.0.2]
+Feb  9 13:36:33 45ffd64efc00 dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=172.21.0.2, lip=172.21.0.3, session=<eKcfeET0igCsFQAC>
+Feb  9 15:17:20 9aa84b8f5b34 dovecot: master: Dovecot v2.2.9 starting up
+Feb  9 15:17:20 9aa84b8f5b34 dovecot: ssl-params: Generating SSL parameters
+Feb  9 15:17:29 9aa84b8f5b34 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  9 15:17:50 8a9403099e61 dovecot: master: Dovecot v2.2.9 starting up
+Feb  9 15:17:50 8a9403099e61 dovecot: ssl-params: Generating SSL parameters
+Feb  9 15:18:02 8a9403099e61 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  9 15:44:25 8a9403099e61 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<admin>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<w7hKQUb05AB/AAAB>
+Feb  9 15:45:11 4e0f8b3b65d8 dovecot: master: Dovecot v2.2.9 starting up
+Feb  9 15:45:11 4e0f8b3b65d8 dovecot: ssl-params: Generating SSL parameters
+Feb  9 15:45:12 4e0f8b3b65d8 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  9 15:45:45 42f07df45837 dovecot: master: Dovecot v2.2.9 starting up
+Feb  9 15:45:45 42f07df45837 dovecot: ssl-params: Generating SSL parameters
+Feb  9 15:46:06 42f07df45837 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  9 15:47:10 2cf5403662a3 dovecot: master: Dovecot v2.2.9 starting up
+Feb  9 15:47:10 2cf5403662a3 dovecot: ssl-params: Generating SSL parameters
+Feb  9 15:47:20 2cf5403662a3 dovecot: ssl-params: SSL parameters regeneration completed
+Feb 10 10:30:35 90432459be45 dovecot: master: Dovecot v2.2.9 starting up
+Feb 10 10:30:35 90432459be45 dovecot: ssl-params: Generating SSL parameters
+Feb 10 10:30:39 90432459be45 dovecot: ssl-params: SSL parameters regeneration completed
+Feb 10 12:34:01 de5953d2dc8e dovecot: master: Dovecot v2.2.9 starting up
+Feb 10 12:34:01 de5953d2dc8e dovecot: ssl-params: Generating SSL parameters
+Feb 10 12:34:02 de5953d2dc8e dovecot: ssl-params: SSL parameters regeneration completed

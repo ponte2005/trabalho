@@ -1,0 +1,10 @@
+
+Start-Date: 2023-02-04  11:08:58
+Commandline: apt install nano
+Install: nano:amd64 (2.2.6-1ubuntu1)
+End-Date: 2023-02-04  11:08:58
+
+Start-Date: 2023-02-06  12:17:59
+Commandline: apt install nano
+Install: nano:amd64 (2.2.6-1ubuntu1)
+End-Date: 2023-02-06  12:18:00
