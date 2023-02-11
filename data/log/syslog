@@ -360,3 +360,57 @@ Feb 10 12:33:51 de5953d2dc8e rsyslogd-2039: Could no open output pipe '/dev/xcon
 Feb 10 12:34:01 de5953d2dc8e dovecot: master: Dovecot v2.2.9 starting up
 Feb 10 12:34:01 de5953d2dc8e dovecot: ssl-params: Generating SSL parameters
 Feb 10 12:34:02 de5953d2dc8e dovecot: ssl-params: SSL parameters regeneration completed
+Feb 11 10:14:08 fd47345c2c93 rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="601" x-info="http://www.rsyslog.com"] start
+Feb 11 10:14:08 fd47345c2c93 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 11 10:14:08 fd47345c2c93 rsyslogd-2145: activation of module imklog failed [try http://www.rsyslog.com/e/2145 ]
+Feb 11 10:14:08 fd47345c2c93 rsyslogd: rsyslogd's groupid changed to 104
+Feb 11 10:14:08 fd47345c2c93 rsyslogd: rsyslogd's userid changed to 101
+Feb 11 10:14:08 fd47345c2c93 rsyslogd-2039: Could no open output pipe '/dev/xconsole': Permission denied [try http://www.rsyslog.com/e/2039 ]
+Feb 11 10:14:18 fd47345c2c93 dovecot: master: Dovecot v2.2.9 starting up
+Feb 11 10:14:18 fd47345c2c93 dovecot: ssl-params: Generating SSL parameters
+Feb 11 10:14:29 fd47345c2c93 dovecot: ssl-params: SSL parameters regeneration completed
+Feb 11 10:22:34 85549ab35f67 rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="602" x-info="http://www.rsyslog.com"] start
+Feb 11 10:22:34 85549ab35f67 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 11 10:22:34 85549ab35f67 rsyslogd-2145: activation of module imklog failed [try http://www.rsyslog.com/e/2145 ]
+Feb 11 10:22:34 85549ab35f67 rsyslogd: rsyslogd's groupid changed to 104
+Feb 11 10:22:34 85549ab35f67 rsyslogd: rsyslogd's userid changed to 101
+Feb 11 10:22:34 85549ab35f67 rsyslogd-2039: Could no open output pipe '/dev/xconsole': Permission denied [try http://www.rsyslog.com/e/2039 ]
+Feb 11 10:22:44 85549ab35f67 dovecot: master: Dovecot v2.2.9 starting up
+Feb 11 10:22:44 85549ab35f67 dovecot: ssl-params: Generating SSL parameters
+Feb 11 10:23:31 85549ab35f67 dovecot: ssl-params: SSL parameters regeneration completed
+Feb 11 10:45:54 4a20039ee23e rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="602" x-info="http://www.rsyslog.com"] start
+Feb 11 10:45:54 4a20039ee23e rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 11 10:45:54 4a20039ee23e rsyslogd-2145: activation of module imklog failed [try http://www.rsyslog.com/e/2145 ]
+Feb 11 10:45:54 4a20039ee23e rsyslogd: rsyslogd's groupid changed to 104
+Feb 11 10:45:54 4a20039ee23e rsyslogd: rsyslogd's userid changed to 101
+Feb 11 10:45:54 4a20039ee23e rsyslogd-2039: Could no open output pipe '/dev/xconsole': Permission denied [try http://www.rsyslog.com/e/2039 ]
+Feb 11 10:46:05 4a20039ee23e dovecot: master: Dovecot v2.2.9 starting up
+Feb 11 10:46:05 4a20039ee23e dovecot: ssl-params: Generating SSL parameters
+Feb 11 10:46:43 4a20039ee23e dovecot: ssl-params: SSL parameters regeneration completed
+Feb 11 10:47:05 4a20039ee23e postfix/smtps/smtpd[653]: warning: dict_nis_init: NIS domain name not set - NIS lookups disabled
+Feb 11 10:47:05 4a20039ee23e postfix/smtps/smtpd[653]: warning: cannot load 1024-bit DH parameters from file /etc/ssl/private/dhparams.pem: No such file or directory -- using compiled-in defaults
+Feb 11 10:47:05 4a20039ee23e postfix/smtps/smtpd[653]: connect from my_lb.trabalho_default[192.168.20.4]
+Feb 11 10:47:05 4a20039ee23e postfix/smtps/smtpd[653]: SSL_accept error from my_lb.trabalho_default[192.168.20.4]: -1
+Feb 11 10:47:05 4a20039ee23e postfix/smtps/smtpd[653]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb 11 10:47:05 4a20039ee23e postfix/smtps/smtpd[653]: lost connection after CONNECT from my_lb.trabalho_default[192.168.20.4]
+Feb 11 10:47:05 4a20039ee23e postfix/smtps/smtpd[653]: disconnect from my_lb.trabalho_default[192.168.20.4]
+Feb 11 10:47:08 4a20039ee23e dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=192.168.20.4, lip=192.168.20.5, session=<2gXkVWr0qgDAqBQE>
+Feb 11 10:47:08 4a20039ee23e postfix/smtpd[660]: warning: dict_nis_init: NIS domain name not set - NIS lookups disabled
+Feb 11 10:47:08 4a20039ee23e postfix/smtpd[660]: warning: cannot load 1024-bit DH parameters from file /etc/ssl/private/dhparams.pem: No such file or directory -- using compiled-in defaults
+Feb 11 10:47:08 4a20039ee23e postfix/smtpd[660]: connect from my_lb.trabalho_default[192.168.20.4]
+Feb 11 10:47:08 4a20039ee23e postfix/smtpd[660]: warning: non-SMTP command from my_lb.trabalho_default[192.168.20.4]: GET /favicon.ico HTTP/1.1
+Feb 11 10:47:08 4a20039ee23e postfix/smtpd[660]: disconnect from my_lb.trabalho_default[192.168.20.4]
+Feb 11 10:47:08 4a20039ee23e dovecot: imap-login: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=192.168.20.4, lip=192.168.20.5, session=<av7mVWr0PgDAqBQE>
+Feb 11 10:47:09 4a20039ee23e postfix/smtps/smtpd[653]: connect from my_lb.trabalho_default[192.168.20.4]
+Feb 11 10:47:09 4a20039ee23e postfix/smtps/smtpd[653]: SSL_accept error from my_lb.trabalho_default[192.168.20.4]: -1
+Feb 11 10:47:09 4a20039ee23e postfix/smtps/smtpd[653]: warning: TLS library problem: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request:s23_srvr.c:416:
+Feb 11 10:47:09 4a20039ee23e postfix/smtps/smtpd[653]: lost connection after CONNECT from my_lb.trabalho_default[192.168.20.4]
+Feb 11 10:47:09 4a20039ee23e postfix/smtps/smtpd[653]: disconnect from my_lb.trabalho_default[192.168.20.4]
+Feb 11 10:47:09 4a20039ee23e dovecot: pop3-login: Disconnected: Too many bad commands (no auth attempts in 0 secs): user=<>, rip=192.168.20.4, lip=192.168.20.5, session=<REP8VWr0+gDAqBQE>
+Feb 11 10:47:10 4a20039ee23e postfix/smtpd[660]: connect from my_lb.trabalho_default[192.168.20.4]
+Feb 11 10:47:10 4a20039ee23e postfix/smtpd[660]: warning: non-SMTP command from my_lb.trabalho_default[192.168.20.4]: GET / HTTP/1.1
+Feb 11 10:47:10 4a20039ee23e postfix/smtpd[660]: disconnect from my_lb.trabalho_default[192.168.20.4]
+Feb 11 10:47:11 4a20039ee23e dovecot: imap-login: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=192.168.20.4, lip=192.168.20.5, session=<F/kNVmr0yADAqBQE>
+Feb 11 10:50:30 4a20039ee23e postfix/anvil[656]: statistics: max connection rate 2/60s for (smtp:192.168.20.4) at Feb 11 10:47:10
+Feb 11 10:50:30 4a20039ee23e postfix/anvil[656]: statistics: max connection count 1 for (smtp:192.168.20.4) at Feb 11 10:47:08
+Feb 11 10:50:30 4a20039ee23e postfix/anvil[656]: statistics: max cache size 1 at Feb 11 10:47:08
