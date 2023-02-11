@@ -240,3 +240,6 @@ Feb 11 10:47:11 4a20039ee23e dovecot: imap-login: Disconnected: Too many invalid
 Feb 11 10:50:30 4a20039ee23e postfix/anvil[656]: statistics: max connection rate 2/60s for (smtp:192.168.20.4) at Feb 11 10:47:10
 Feb 11 10:50:30 4a20039ee23e postfix/anvil[656]: statistics: max connection count 1 for (smtp:192.168.20.4) at Feb 11 10:47:08
 Feb 11 10:50:30 4a20039ee23e postfix/anvil[656]: statistics: max cache size 1 at Feb 11 10:47:08
+Feb 11 12:23:33 27229ff56a72 dovecot: master: Dovecot v2.2.9 starting up
+Feb 11 12:23:33 27229ff56a72 dovecot: ssl-params: Generating SSL parameters
+Feb 11 12:24:39 27229ff56a72 dovecot: ssl-params: SSL parameters regeneration completed

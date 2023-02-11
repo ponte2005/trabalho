@@ -69,3 +69,5 @@
 [Sat Feb 11 10:22:43.416193 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'
 [Sat Feb 11 10:46:04.131431 2023] [mpm_prefork:notice] [pid 635] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
 [Sat Feb 11 10:46:04.131486 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Feb 11 12:23:32.753039 2023] [mpm_prefork:notice] [pid 635] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
+[Sat Feb 11 12:23:32.753074 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'
