@@ -1,0 +1,18 @@
+Return-Path: <user1@pap.local>
+Delivered-To: user1@pap.local
+Received: by mail.example.com (Postfix, from userid 33)
+	id 6CA7FA2114B; Sat, 11 Feb 2023 13:02:41 +0000 (UTC)
+To: user1@pap.local
+Subject: ola
+X-PHP-Originating-Script: 33:rcube.php
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+Date: Sat, 11 Feb 2023 12:02:41 -0100
+From: user1@pap.local
+Message-ID: <97b7e64d2fc1bb5594e3f48882353454@pap.local>
+X-Sender: user1@pap.local
+User-Agent: Roundcube Webmail/1.1.4
+
+venho por este meio informar que esta a trabalhar

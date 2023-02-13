@@ -1,0 +1,19 @@
+Return-Path: <root@3d099f519128>
+Delivered-To: admin1@admin.pt
+Received: by mail.example.com (Postfix, from userid 1150)
+	id 269D0A2114D; Sat, 11 Feb 2023 13:05:25 +0000 (UTC)
+Received: from 3d099f519128 (localhost [127.0.0.1])
+	by mail.example.com (Postfix) with ESMTP id 245F8A21145
+	for <admin1@admin.pt>; Sat, 11 Feb 2023 13:05:22 +0000 (UTC)
+To: admin1@admin.pt
+From: root@3d099f519128
+Subject: Welcome
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230211130523.245F8A21145@mail.example.com>
+Date: Sat, 11 Feb 2023 13:05:22 +0000 (UTC)
+
+Hi,
+
+Welcome to your new account.

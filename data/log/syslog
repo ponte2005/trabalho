@@ -423,3 +423,358 @@ Feb 11 12:23:23 27229ff56a72 rsyslogd-2039: Could no open output pipe '/dev/xcon
 Feb 11 12:23:33 27229ff56a72 dovecot: master: Dovecot v2.2.9 starting up
 Feb 11 12:23:33 27229ff56a72 dovecot: ssl-params: Generating SSL parameters
 Feb 11 12:24:39 27229ff56a72 dovecot: ssl-params: SSL parameters regeneration completed
+Feb 11 12:42:40 3d099f519128 rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="602" x-info="http://www.rsyslog.com"] start
+Feb 11 12:42:40 3d099f519128 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 11 12:42:40 3d099f519128 rsyslogd-2145: activation of module imklog failed [try http://www.rsyslog.com/e/2145 ]
+Feb 11 12:42:40 3d099f519128 rsyslogd: rsyslogd's groupid changed to 104
+Feb 11 12:42:40 3d099f519128 rsyslogd: rsyslogd's userid changed to 101
+Feb 11 12:42:40 3d099f519128 rsyslogd-2039: Could no open output pipe '/dev/xconsole': Permission denied [try http://www.rsyslog.com/e/2039 ]
+Feb 11 12:42:50 3d099f519128 dovecot: master: Dovecot v2.2.9 starting up
+Feb 11 12:42:50 3d099f519128 dovecot: ssl-params: Generating SSL parameters
+Feb 11 12:43:24 3d099f519128 dovecot: ssl-params: SSL parameters regeneration completed
+Feb 11 12:47:05 3d099f519128 postfix/smtpd[657]: warning: dict_nis_init: NIS domain name not set - NIS lookups disabled
+Feb 11 12:47:05 3d099f519128 postfix/smtpd[657]: warning: cannot load 1024-bit DH parameters from file /etc/ssl/private/dhparams.pem: No such file or directory -- using compiled-in defaults
+Feb 11 12:47:05 3d099f519128 postfix/smtpd[657]: connect from localhost[127.0.0.1]
+Feb 11 12:47:05 3d099f519128 postfix/smtpd[657]: 7145BA21140: client=localhost[127.0.0.1]
+Feb 11 12:47:05 3d099f519128 postfix/cleanup[667]: 7145BA21140: message-id=<20230211124705.7145BA21140@mail.example.com>
+Feb 11 12:47:05 3d099f519128 postfix/qmgr[587]: 7145BA21140: from=<root@3d099f519128>, size=472, nrcpt=1 (queue active)
+Feb 11 12:47:05 3d099f519128 postfix/smtpd[657]: disconnect from localhost[127.0.0.1]
+Feb 11 12:47:05 3d099f519128 spamc[672]: connect to spamd on 127.0.0.1 failed, retrying (#1 of 3): Connection refused
+Feb 11 12:47:05 3d099f519128 spamc[672]: connect to spamd on ::1 failed, retrying (#1 of 3): Cannot assign requested address
+Feb 11 12:47:06 3d099f519128 spamc[672]: connect to spamd on 127.0.0.1 failed, retrying (#2 of 3): Connection refused
+Feb 11 12:47:06 3d099f519128 spamc[672]: connect to spamd on ::1 failed, retrying (#2 of 3): Cannot assign requested address
+Feb 11 12:47:07 3d099f519128 spamc[672]: connect to spamd on 127.0.0.1 failed, retrying (#3 of 3): Connection refused
+Feb 11 12:47:07 3d099f519128 spamc[672]: connect to spamd on ::1 failed, retrying (#3 of 3): Cannot assign requested address
+Feb 11 12:47:07 3d099f519128 spamc[672]: connection attempt to spamd aborted after 3 retries
+Feb 11 12:47:07 3d099f519128 postfix/pipe[670]: 7145BA21140: to=<root@pap.local>, relay=spamassassin, delay=2.2, delays=0.16/0/0/2, dsn=2.0.0, status=sent (delivered via spamassassin service)
+Feb 11 12:47:07 3d099f519128 postfix/pickup[586]: 73F09A21146: uid=1150 from=<root@3d099f519128>
+Feb 11 12:47:07 3d099f519128 postfix/qmgr[587]: 7145BA21140: removed
+Feb 11 12:47:07 3d099f519128 postfix/cleanup[667]: 73F09A21146: message-id=<20230211124705.7145BA21140@mail.example.com>
+Feb 11 12:47:07 3d099f519128 postfix/qmgr[587]: 73F09A21146: from=<root@3d099f519128>, size=587, nrcpt=1 (queue active)
+Feb 11 12:47:07 3d099f519128 dovecot: lda(root@pap.local): msgid=<20230211124705.7145BA21140@mail.example.com>: saved mail to INBOX
+Feb 11 12:47:07 3d099f519128 postfix/pipe[675]: 73F09A21146: to=<root@pap.local>, relay=dovecot, delay=0.02, delays=0/0/0/0.02, dsn=2.0.0, status=sent (delivered via dovecot service)
+Feb 11 12:47:07 3d099f519128 postfix/qmgr[587]: 73F09A21146: removed
+Feb 11 12:48:50 3d099f519128 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<user1>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<lGMBCWz0CAB/AAAB>
+Feb 11 12:49:07 3d099f519128 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 6 secs): user=<user1>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<KcHECWz07gB/AAAB>
+Feb 11 12:49:30 3d099f519128 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<g+ltC2z0ZAB/AAAB>
+Feb 11 12:49:46 3d099f519128 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<+VxVDGz0wgB/AAAB>
+Feb 11 12:50:20 3d099f519128 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<root>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<doFmDmz0ygB/AAAB>
+Feb 11 12:52:15 3d099f519128 postfix/smtpd[691]: warning: dict_nis_init: NIS domain name not set - NIS lookups disabled
+Feb 11 12:52:15 3d099f519128 postfix/smtpd[691]: warning: cannot load 1024-bit DH parameters from file /etc/ssl/private/dhparams.pem: No such file or directory -- using compiled-in defaults
+Feb 11 12:52:15 3d099f519128 postfix/smtpd[691]: connect from localhost[127.0.0.1]
+Feb 11 12:52:15 3d099f519128 postfix/smtpd[691]: 3E84DA21145: client=localhost[127.0.0.1]
+Feb 11 12:52:15 3d099f519128 postfix/cleanup[699]: 3E84DA21145: message-id=<20230211125215.3E84DA21145@mail.example.com>
+Feb 11 12:52:15 3d099f519128 postfix/smtpd[691]: disconnect from localhost[127.0.0.1]
+Feb 11 12:52:15 3d099f519128 postfix/qmgr[587]: 3E84DA21145: from=<root@3d099f519128>, size=474, nrcpt=1 (queue active)
+Feb 11 12:52:15 3d099f519128 spamc[702]: connect to spamd on 127.0.0.1 failed, retrying (#1 of 3): Connection refused
+Feb 11 12:52:15 3d099f519128 spamc[702]: connect to spamd on ::1 failed, retrying (#1 of 3): Cannot assign requested address
+Feb 11 12:52:16 3d099f519128 spamc[702]: connect to spamd on 127.0.0.1 failed, retrying (#2 of 3): Connection refused
+Feb 11 12:52:16 3d099f519128 spamc[702]: connect to spamd on ::1 failed, retrying (#2 of 3): Cannot assign requested address
+Feb 11 12:52:17 3d099f519128 spamc[702]: connect to spamd on 127.0.0.1 failed, retrying (#3 of 3): Connection refused
+Feb 11 12:52:17 3d099f519128 spamc[702]: connect to spamd on ::1 failed, retrying (#3 of 3): Cannot assign requested address
+Feb 11 12:52:17 3d099f519128 spamc[702]: connection attempt to spamd aborted after 3 retries
+Feb 11 12:52:17 3d099f519128 postfix/pipe[701]: 3E84DA21145: to=<user1@pap.local>, relay=spamassassin, delay=2.1, delays=0.12/0/0/2, dsn=2.0.0, status=sent (delivered via spamassassin service)
+Feb 11 12:52:17 3d099f519128 postfix/pickup[586]: 40B40A2114C: uid=1150 from=<root@3d099f519128>
+Feb 11 12:52:17 3d099f519128 postfix/qmgr[587]: 3E84DA21145: removed
+Feb 11 12:52:17 3d099f519128 postfix/cleanup[699]: 40B40A2114C: message-id=<20230211125215.3E84DA21145@mail.example.com>
+Feb 11 12:52:17 3d099f519128 postfix/qmgr[587]: 40B40A2114C: from=<root@3d099f519128>, size=589, nrcpt=1 (queue active)
+Feb 11 12:52:17 3d099f519128 dovecot: lda(user1@pap.local): msgid=<20230211125215.3E84DA21145@mail.example.com>: saved mail to INBOX
+Feb 11 12:52:17 3d099f519128 postfix/pipe[705]: 40B40A2114C: to=<user1@pap.local>, relay=dovecot, delay=0.02, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered via dovecot service)
+Feb 11 12:52:17 3d099f519128 postfix/qmgr[587]: 40B40A2114C: removed
+Feb 11 12:52:57 3d099f519128 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<use1>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<IBG9F2z0ggB/AAAB>
+Feb 11 12:53:15 3d099f519128 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 6 secs): user=<use1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<B7qVGGz0GgB/AAAB>
+Feb 11 12:54:02 3d099f519128 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<root>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<0w6gG2z0egB/AAAB>
+Feb 11 13:00:41 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=718, secured, session=<8pt8M2z0iAB/AAAB>
+Feb 11 13:00:41 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=335 out=832
+Feb 11 13:00:41 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=720, secured, session=<jQ59M2z0jgB/AAAB>
+Feb 11 13:00:41 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:00:41 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=723, secured, session=<pzt+M2z0kAB/AAAB>
+Feb 11 13:00:41 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=724, secured, session=<WEV+M2z0oAB/AAAB>
+Feb 11 13:00:41 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=290 out=1341
+Feb 11 13:00:41 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=233 out=885
+Feb 11 13:01:34 3d099f519128 postfix/smtpd[725]: warning: dict_nis_init: NIS domain name not set - NIS lookups disabled
+Feb 11 13:01:34 3d099f519128 postfix/smtpd[725]: warning: cannot load 1024-bit DH parameters from file /etc/ssl/private/dhparams.pem: No such file or directory -- using compiled-in defaults
+Feb 11 13:01:34 3d099f519128 postfix/smtpd[725]: connect from localhost[127.0.0.1]
+Feb 11 13:01:34 3d099f519128 postfix/smtpd[725]: 89072A2114A: client=localhost[127.0.0.1]
+Feb 11 13:01:34 3d099f519128 postfix/cleanup[730]: 89072A2114A: message-id=<20230211130134.89072A2114A@mail.example.com>
+Feb 11 13:01:34 3d099f519128 postfix/smtpd[725]: disconnect from localhost[127.0.0.1]
+Feb 11 13:01:34 3d099f519128 postfix/qmgr[587]: 89072A2114A: from=<root@3d099f519128>, size=472, nrcpt=1 (queue active)
+Feb 11 13:01:34 3d099f519128 spamc[733]: connect to spamd on 127.0.0.1 failed, retrying (#1 of 3): Connection refused
+Feb 11 13:01:34 3d099f519128 spamc[733]: connect to spamd on ::1 failed, retrying (#1 of 3): Cannot assign requested address
+Feb 11 13:01:35 3d099f519128 spamc[733]: connect to spamd on 127.0.0.1 failed, retrying (#2 of 3): Connection refused
+Feb 11 13:01:35 3d099f519128 spamc[733]: connect to spamd on ::1 failed, retrying (#2 of 3): Cannot assign requested address
+Feb 11 13:01:36 3d099f519128 spamc[733]: connect to spamd on 127.0.0.1 failed, retrying (#3 of 3): Connection refused
+Feb 11 13:01:36 3d099f519128 spamc[733]: connect to spamd on ::1 failed, retrying (#3 of 3): Cannot assign requested address
+Feb 11 13:01:36 3d099f519128 spamc[733]: connection attempt to spamd aborted after 3 retries
+Feb 11 13:01:36 3d099f519128 postfix/pickup[586]: 8B6BCA2114C: uid=1150 from=<root@3d099f519128>
+Feb 11 13:01:36 3d099f519128 postfix/pipe[732]: 89072A2114A: to=<use2@pap.local>, relay=spamassassin, delay=2.1, delays=0.13/0/0/2, dsn=2.0.0, status=sent (delivered via spamassassin service)
+Feb 11 13:01:36 3d099f519128 postfix/qmgr[587]: 89072A2114A: removed
+Feb 11 13:01:36 3d099f519128 postfix/cleanup[730]: 8B6BCA2114C: message-id=<20230211130134.89072A2114A@mail.example.com>
+Feb 11 13:01:36 3d099f519128 postfix/qmgr[587]: 8B6BCA2114C: from=<root@3d099f519128>, size=587, nrcpt=1 (queue active)
+Feb 11 13:01:36 3d099f519128 dovecot: lda(use2@pap.local): msgid=<20230211130134.89072A2114A@mail.example.com>: saved mail to INBOX
+Feb 11 13:01:36 3d099f519128 postfix/pipe[736]: 8B6BCA2114C: to=<use2@pap.local>, relay=dovecot, delay=0.02, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered via dovecot service)
+Feb 11 13:01:36 3d099f519128 postfix/qmgr[587]: 8B6BCA2114C: removed
+Feb 11 13:01:41 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=739, secured, session=<G3MYN2z06gB/AAAB>
+Feb 11 13:01:41 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=117 out=946
+Feb 11 13:01:52 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=741, secured, session=<agW5N2z0egB/AAAB>
+Feb 11 13:01:52 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=49 out=468
+Feb 11 13:01:56 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=743, secured, session=<oKX3N2z0hAB/AAAB>
+Feb 11 13:01:56 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=32 out=449
+Feb 11 13:01:56 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=745, secured, session=<nur3N2z0iAB/AAAB>
+Feb 11 13:01:56 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:02:41 3d099f519128 postfix/pickup[586]: 6CA7FA2114B: uid=33 from=<user1@pap.local>
+Feb 11 13:02:41 3d099f519128 postfix/cleanup[730]: 6CA7FA2114B: message-id=<97b7e64d2fc1bb5594e3f48882353454@pap.local>
+Feb 11 13:02:41 3d099f519128 postfix/qmgr[587]: 6CA7FA2114B: from=<user1@pap.local>, size=538, nrcpt=1 (queue active)
+Feb 11 13:02:41 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=753, secured, session=<5HSqOmz0aAB/AAAB>
+Feb 11 13:02:41 3d099f519128 dovecot: lda(user1@pap.local): msgid=<97b7e64d2fc1bb5594e3f48882353454@pap.local>: saved mail to INBOX
+Feb 11 13:02:41 3d099f519128 postfix/pipe[736]: 6CA7FA2114B: to=<user1@pap.local>, relay=dovecot, delay=0.01, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered via dovecot service)
+Feb 11 13:02:41 3d099f519128 postfix/qmgr[587]: 6CA7FA2114B: removed
+Feb 11 13:02:41 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=471 out=568
+Feb 11 13:02:42 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=755, secured, session=<9BOzOmz0cgB/AAAB>
+Feb 11 13:02:42 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:02:42 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=758, secured, session=<MeCzOmz0fAB/AAAB>
+Feb 11 13:02:42 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=759, secured, session=<O+uzOmz0hAB/AAAB>
+Feb 11 13:02:42 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=119 out=687
+Feb 11 13:02:42 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=288 out=1323
+Feb 11 13:03:06 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=761, secured, session=<Qy8iPGz0agB/AAAB>
+Feb 11 13:03:06 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=82 out=646
+Feb 11 13:03:06 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=763, secured, session=<w1siPGz0dgB/AAAB>
+Feb 11 13:03:06 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:06 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=766, secured, session=<wiUjPGz0fAB/AAAB>
+Feb 11 13:03:06 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=767, secured, session=<pi8jPGz0hgB/AAAB>
+Feb 11 13:03:06 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=292 out=1714
+Feb 11 13:03:06 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=233 out=885
+Feb 11 13:03:10 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=769, secured, session=<MNtgPGz0eAB/AAAB>
+Feb 11 13:03:10 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=309 out=1703
+Feb 11 13:03:11 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=771, secured, session=<OG5vPGz0hAB/AAAB>
+Feb 11 13:03:11 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=458 out=1820
+Feb 11 13:03:11 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=774, secured, session=<eQ9wPGz0kgB/AAAB>
+Feb 11 13:03:11 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:11 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=775, secured, session=<8BZwPGz0ngB/AAAB>
+Feb 11 13:03:11 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=71 out=823
+Feb 11 13:03:13 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=777, secured, session=<DcGOPGz0qgB/AAAB>
+Feb 11 13:03:13 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:13 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=780, secured, session=<cniPPGz0rgB/AAAB>
+Feb 11 13:03:13 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=781, secured, session=<7ICPPGz0tAB/AAAB>
+Feb 11 13:03:13 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:13 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=309 out=1708
+Feb 11 13:03:14 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=783, secured, session=<vI+iPGz0uAB/AAAB>
+Feb 11 13:03:14 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=32 out=449
+Feb 11 13:03:14 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=785, secured, session=<Yc2iPGz0wAB/AAAB>
+Feb 11 13:03:14 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:22 3d099f519128 postfix/pickup[586]: 8EE64A21146: uid=33 from=<user1@pap.local>
+Feb 11 13:03:22 3d099f519128 postfix/cleanup[730]: 8EE64A21146: message-id=<afb97b78c07dca336bf1284e459f5511@pap.local>
+Feb 11 13:03:22 3d099f519128 postfix/qmgr[587]: 8EE64A21146: from=<user1@pap.local>, size=520, nrcpt=1 (queue active)
+Feb 11 13:03:22 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=793, secured, session=<xjMePWz0GAB/AAAB>
+Feb 11 13:03:22 3d099f519128 dovecot: lda(use2@pap.local): msgid=<afb97b78c07dca336bf1284e459f5511@pap.local>: saved mail to INBOX
+Feb 11 13:03:22 3d099f519128 postfix/pipe[736]: 8EE64A21146: to=<use2@pap.local>, relay=dovecot, delay=0.01, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered via dovecot service)
+Feb 11 13:03:22 3d099f519128 postfix/qmgr[587]: 8EE64A21146: removed
+Feb 11 13:03:22 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=453 out=568
+Feb 11 13:03:23 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=795, secured, session=<nuQmPWz0HgB/AAAB>
+Feb 11 13:03:23 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:23 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=798, secured, session=<oJwnPWz0JAB/AAAB>
+Feb 11 13:03:23 3d099f519128 dovecot: imap-login: Login: user=<user1@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=799, secured, session=<v6QnPWz0NAB/AAAB>
+Feb 11 13:03:23 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:23 3d099f519128 dovecot: imap(user1@pap.local): Disconnected: Logged out in=309 out=1708
+Feb 11 13:03:31 3d099f519128 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<ItOIPWz0zAB/AAAB>
+Feb 11 13:03:41 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=802, secured, session=<6GgHPmz02gB/AAAB>
+Feb 11 13:03:41 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=335 out=832
+Feb 11 13:03:41 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=804, secured, session=<NtREPmz0KAB/AAAB>
+Feb 11 13:03:41 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:41 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=807, secured, session=<jIBFPmz0KgB/AAAB>
+Feb 11 13:03:41 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=808, secured, session=<QopFPmz0LAB/AAAB>
+Feb 11 13:03:41 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1730
+Feb 11 13:03:41 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=233 out=885
+Feb 11 13:03:44 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=810, secured, session=<hHllPmz0LgB/AAAB>
+Feb 11 13:03:44 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=458 out=1802
+Feb 11 13:03:44 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=813, secured, session=<rRFmPmz0SgB/AAAB>
+Feb 11 13:03:44 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=54 out=827
+Feb 11 13:03:44 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=814, secured, session=<MBhmPmz0PgB/AAAB>
+Feb 11 13:03:44 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:46 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=816, secured, session=<tC6GPmz0UAB/AAAB>
+Feb 11 13:03:46 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:46 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=819, secured, session=<YtyGPmz0VAB/AAAB>
+Feb 11 13:03:46 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=820, secured, session=<0uaGPmz0VgB/AAAB>
+Feb 11 13:03:46 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:46 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1721
+Feb 11 13:03:50 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=822, secured, session=<1mDCPmz0ugB/AAAB>
+Feb 11 13:03:50 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:50 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=825, secured, session=<BwrEPmz0xAB/AAAB>
+Feb 11 13:03:50 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=826, secured, session=<AxXEPmz01AB/AAAB>
+Feb 11 13:03:50 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:50 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1721
+Feb 11 13:03:50 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=828, secured, session=<8X/MPmz04AB/AAAB>
+Feb 11 13:03:50 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:50 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=831, secured, session=<TTfNPmz08AB/AAAB>
+Feb 11 13:03:50 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=832, secured, session=<sz7NPmz0+gB/AAAB>
+Feb 11 13:03:50 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:50 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1721
+Feb 11 13:03:50 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=834, secured, session=<SmTPPmz0BAB/AAAB>
+Feb 11 13:03:50 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=837, secured, session=<OCHQPmz0DAB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=838, secured, session=<TCzQPmz0FgB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1721
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=840, secured, session=<sFvSPmz0IAB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=843, secured, session=<PBPTPmz0KgB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=844, secured, session=<BhvTPmz0LgB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1721
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=846, secured, session=<aGnVPmz0MgB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=849, secured, session=<EiLWPmz0NAB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=850, secured, session=<zSnWPmz0RAB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1721
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=852, secured, session=<b03YPmz0SgB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=855, secured, session=<ewPZPmz0VgB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=856, secured, session=<pg3ZPmz0ZgB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1721
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=858, secured, session=<9FrbPmz0dAB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=861, secured, session=<PBHcPmz0fAB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=862, secured, session=<xB3cPmz0fgB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1721
+Feb 11 13:03:51 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=864, secured, session=<smjePmz0hAB/AAAB>
+Feb 11 13:03:51 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:03:52 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=867, secured, session=<qyHfPmz0hgB/AAAB>
+Feb 11 13:03:52 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=868, secured, session=<jCzfPmz0iAB/AAAB>
+Feb 11 13:03:52 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:03:52 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1721
+Feb 11 13:04:52 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=872, secured, session=<4dp6Qmz0FAB/AAAB>
+Feb 11 13:04:52 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=119 out=979
+Feb 11 13:05:22 3d099f519128 postfix/smtpd[873]: warning: dict_nis_init: NIS domain name not set - NIS lookups disabled
+Feb 11 13:05:22 3d099f519128 postfix/smtpd[873]: warning: cannot load 1024-bit DH parameters from file /etc/ssl/private/dhparams.pem: No such file or directory -- using compiled-in defaults
+Feb 11 13:05:22 3d099f519128 postfix/smtpd[873]: connect from localhost[127.0.0.1]
+Feb 11 13:05:23 3d099f519128 postfix/smtpd[873]: 245F8A21145: client=localhost[127.0.0.1]
+Feb 11 13:05:23 3d099f519128 postfix/cleanup[878]: 245F8A21145: message-id=<20230211130523.245F8A21145@mail.example.com>
+Feb 11 13:05:23 3d099f519128 postfix/qmgr[587]: 245F8A21145: from=<root@3d099f519128>, size=474, nrcpt=1 (queue active)
+Feb 11 13:05:23 3d099f519128 postfix/smtpd[873]: disconnect from localhost[127.0.0.1]
+Feb 11 13:05:23 3d099f519128 spamc[881]: connect to spamd on 127.0.0.1 failed, retrying (#1 of 3): Connection refused
+Feb 11 13:05:23 3d099f519128 spamc[881]: connect to spamd on ::1 failed, retrying (#1 of 3): Cannot assign requested address
+Feb 11 13:05:24 3d099f519128 spamc[881]: connect to spamd on 127.0.0.1 failed, retrying (#2 of 3): Connection refused
+Feb 11 13:05:24 3d099f519128 spamc[881]: connect to spamd on ::1 failed, retrying (#2 of 3): Cannot assign requested address
+Feb 11 13:05:25 3d099f519128 spamc[881]: connect to spamd on 127.0.0.1 failed, retrying (#3 of 3): Connection refused
+Feb 11 13:05:25 3d099f519128 spamc[881]: connect to spamd on ::1 failed, retrying (#3 of 3): Cannot assign requested address
+Feb 11 13:05:25 3d099f519128 spamc[881]: connection attempt to spamd aborted after 3 retries
+Feb 11 13:05:25 3d099f519128 postfix/pipe[880]: 245F8A21145: to=<admin1@admin.pt>, relay=spamassassin, delay=2.2, delays=0.15/0/0/2, dsn=2.0.0, status=sent (delivered via spamassassin service)
+Feb 11 13:05:25 3d099f519128 postfix/pickup[586]: 269D0A2114D: uid=1150 from=<root@3d099f519128>
+Feb 11 13:05:25 3d099f519128 postfix/qmgr[587]: 245F8A21145: removed
+Feb 11 13:05:25 3d099f519128 postfix/cleanup[878]: 269D0A2114D: message-id=<20230211130523.245F8A21145@mail.example.com>
+Feb 11 13:05:25 3d099f519128 postfix/qmgr[587]: 269D0A2114D: from=<root@3d099f519128>, size=589, nrcpt=1 (queue active)
+Feb 11 13:05:25 3d099f519128 dovecot: lda(admin1@admin.pt): msgid=<20230211130523.245F8A21145@mail.example.com>: saved mail to INBOX
+Feb 11 13:05:25 3d099f519128 postfix/pipe[884]: 269D0A2114D: to=<admin1@admin.pt>, relay=dovecot, delay=0.02, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered via dovecot service)
+Feb 11 13:05:25 3d099f519128 postfix/qmgr[587]: 269D0A2114D: removed
+Feb 11 13:05:39 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=887, secured, session=<CmxJRWz0/AB/AAAB>
+Feb 11 13:05:39 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=32 out=449
+Feb 11 13:05:39 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=889, secured, session=<oKlJRWz0BgB/AAAB>
+Feb 11 13:05:39 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:06:00 3d099f519128 postfix/pickup[586]: C4080A21146: uid=33 from=<use2@pap.local>
+Feb 11 13:06:00 3d099f519128 postfix/cleanup[878]: C4080A21146: message-id=<9c52f7a15799511524bd886da63f509e@pap.local>
+Feb 11 13:06:00 3d099f519128 postfix/qmgr[587]: C4080A21146: from=<use2@pap.local>, size=527, nrcpt=1 (queue active)
+Feb 11 13:06:00 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=897, secured, session=<cGmMRmz0aAB/AAAB>
+Feb 11 13:06:00 3d099f519128 dovecot: lda(admin1@admin.pt): msgid=<9c52f7a15799511524bd886da63f509e@pap.local>: saved mail to INBOX
+Feb 11 13:06:00 3d099f519128 postfix/pipe[884]: C4080A21146: to=<admin1@admin.pt>, relay=dovecot, delay=0.01, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered via dovecot service)
+Feb 11 13:06:00 3d099f519128 postfix/qmgr[587]: C4080A21146: removed
+Feb 11 13:06:00 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=460 out=568
+Feb 11 13:06:01 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=899, secured, session=<rhKVRmz0eAB/AAAB>
+Feb 11 13:06:01 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=44 out=556
+Feb 11 13:06:01 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=902, secured, session=<ec6VRmz0ggB/AAAB>
+Feb 11 13:06:01 3d099f519128 dovecot: imap-login: Login: user=<use2@pap.local>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=903, secured, session=<DNeVRmz0kgB/AAAB>
+Feb 11 13:06:01 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=120 out=688
+Feb 11 13:06:01 3d099f519128 dovecot: imap(use2@pap.local): Disconnected: Logged out in=292 out=1721
+Feb 11 13:06:10 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=905, secured, session=<XnoiR2z0sAB/AAAB>
+Feb 11 13:06:10 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=335 out=832
+Feb 11 13:06:10 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=907, secured, session=<Lc8iR2z0wAB/AAAB>
+Feb 11 13:06:10 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=44 out=556
+Feb 11 13:06:10 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=910, secured, session=<SKMjR2z0xgB/AAAB>
+Feb 11 13:06:10 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=911, secured, session=</K4jR2z00AB/AAAB>
+Feb 11 13:06:10 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=292 out=1724
+Feb 11 13:06:10 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=233 out=885
+Feb 11 13:06:12 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=913, secured, session=<Wp0/R2z01gB/AAAB>
+Feb 11 13:06:12 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=458 out=1809
+Feb 11 13:06:12 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=916, secured, session=<qjhAR2z02gB/AAAB>
+Feb 11 13:06:12 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=917, secured, session=<ej9AR2z03AB/AAAB>
+Feb 11 13:06:12 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=120 out=688
+Feb 11 13:06:12 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=54 out=827
+Feb 11 13:07:13 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=921, secured, session=<8VniSmz0IAB/AAAB>
+Feb 11 13:07:13 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=90 out=891
+Feb 11 13:08:13 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=923, secured, session=<2+B1Tmz0hAB/AAAB>
+Feb 11 13:08:13 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=90 out=891
+Feb 11 13:09:13 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=925, secured, session=<cWcJUmz08AB/AAAB>
+Feb 11 13:09:13 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=90 out=891
+Feb 11 13:10:13 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=927, secured, session=<ee+cVWz05gB/AAAB>
+Feb 11 13:10:13 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=90 out=891
+Feb 11 13:11:13 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=929, secured, session=<jXUwWWz0vAB/AAAB>
+Feb 11 13:11:13 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=90 out=891
+Feb 11 13:12:14 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=933, secured, session=<sD7TXGz0PAB/AAAB>
+Feb 11 13:12:14 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=90 out=891
+Feb 11 13:13:15 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=937, secured, session=<HwZ2YGz0aAB/AAAB>
+Feb 11 13:13:15 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=90 out=891
+Feb 11 13:14:07 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=939, secured, session=<Y2iIY2z0kgB/AAAB>
+Feb 11 13:14:07 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=44 out=556
+Feb 11 13:14:07 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=942, secured, session=<am2JY2z0lAB/AAAB>
+Feb 11 13:14:07 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=943, secured, session=<3HeJY2z0nAB/AAAB>
+Feb 11 13:14:07 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=120 out=688
+Feb 11 13:14:07 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=292 out=1715
+Feb 11 13:14:19 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=945, secured, session=<JjRCZGz0TgB/AAAB>
+Feb 11 13:14:19 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=51 out=470
+Feb 11 13:14:20 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=947, secured, session=<4wVOZGz0BgB/AAAB>
+Feb 11 13:14:20 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=49 out=468
+Feb 11 13:14:20 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=949, secured, session=<QFhaZGz0FAB/AAAB>
+Feb 11 13:14:20 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=49 out=468
+Feb 11 13:14:21 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=951, secured, session=<oSVdZGz0GgB/AAAB>
+Feb 11 13:14:21 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=49 out=468
+Feb 11 13:14:21 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=953, secured, session=<ddNqZGz0JgB/AAAB>
+Feb 11 13:14:21 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=49 out=468
+Feb 11 13:14:22 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=955, secured, session=<a394ZGz0KAB/AAAB>
+Feb 11 13:14:22 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=49 out=468
+Feb 11 13:14:23 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=957, secured, session=<deR8ZGz0LAB/AAAB>
+Feb 11 13:14:23 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=50 out=469
+Feb 11 13:14:23 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=959, secured, session=<GJuIZGz0LgB/AAAB>
+Feb 11 13:14:23 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=292 out=1715
+Feb 11 13:14:25 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=961, secured, session=<+8ybZGz0NgB/AAAB>
+Feb 11 13:14:25 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=458 out=1780
+Feb 11 13:14:25 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=964, secured, session=<sXmcZGz0PAB/AAAB>
+Feb 11 13:14:25 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=54 out=796
+Feb 11 13:14:25 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=965, secured, session=<+oCcZGz0PgB/AAAB>
+Feb 11 13:14:25 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=120 out=688
+Feb 11 13:14:26 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=967, secured, session=<xRK0ZGz0VgB/AAAB>
+Feb 11 13:14:26 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=44 out=556
+Feb 11 13:14:26 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=970, secured, session=<UM20ZGz0YgB/AAAB>
+Feb 11 13:14:26 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=120 out=688
+Feb 11 13:14:26 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=971, secured, session=<Sda0ZGz0ZgB/AAAB>
+Feb 11 13:14:26 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=292 out=1689
+Feb 11 13:15:27 3d099f519128 dovecot: imap-login: Login: user=<admin1@admin.pt>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=978, secured, session=<NUBUaGz0mAB/AAAB>
+Feb 11 13:15:27 3d099f519128 dovecot: imap(admin1@admin.pt): Disconnected: Logged out in=119 out=953
+Feb 13 10:22:30 13d7613f3d97 rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="601" x-info="http://www.rsyslog.com"] start
+Feb 13 10:22:30 13d7613f3d97 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 13 10:22:30 13d7613f3d97 rsyslogd-2145: activation of module imklog failed [try http://www.rsyslog.com/e/2145 ]
+Feb 13 10:22:30 13d7613f3d97 rsyslogd: rsyslogd's groupid changed to 104
+Feb 13 10:22:30 13d7613f3d97 rsyslogd: rsyslogd's userid changed to 101
+Feb 13 10:22:30 13d7613f3d97 rsyslogd-2039: Could no open output pipe '/dev/xconsole': Permission denied [try http://www.rsyslog.com/e/2039 ]
+Feb 13 10:22:40 13d7613f3d97 dovecot: master: Dovecot v2.2.9 starting up
+Feb 13 10:22:40 13d7613f3d97 dovecot: ssl-params: Generating SSL parameters
+Feb 13 10:22:58 13d7613f3d97 dovecot: ssl-params: SSL parameters regeneration completed
+Feb 13 10:26:16 873aa9e1d889 rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="602" x-info="http://www.rsyslog.com"] start
+Feb 13 10:26:16 873aa9e1d889 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 13 10:26:16 873aa9e1d889 rsyslogd-2145: activation of module imklog failed [try http://www.rsyslog.com/e/2145 ]
+Feb 13 10:26:16 873aa9e1d889 rsyslogd: rsyslogd's groupid changed to 104
+Feb 13 10:26:16 873aa9e1d889 rsyslogd: rsyslogd's userid changed to 101
+Feb 13 10:26:16 873aa9e1d889 rsyslogd-2039: Could no open output pipe '/dev/xconsole': Permission denied [try http://www.rsyslog.com/e/2039 ]
+Feb 13 10:26:26 873aa9e1d889 dovecot: master: Dovecot v2.2.9 starting up
+Feb 13 10:26:26 873aa9e1d889 dovecot: ssl-params: Generating SSL parameters
+Feb 13 10:27:07 873aa9e1d889 dovecot: ssl-params: SSL parameters regeneration completed
+Feb 13 10:46:30 2c48fcd7ae09 rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="602" x-info="http://www.rsyslog.com"] start
+Feb 13 10:46:30 2c48fcd7ae09 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 13 10:46:30 2c48fcd7ae09 rsyslogd-2145: activation of module imklog failed [try http://www.rsyslog.com/e/2145 ]
+Feb 13 10:46:30 2c48fcd7ae09 rsyslogd: rsyslogd's groupid changed to 104
+Feb 13 10:46:30 2c48fcd7ae09 rsyslogd: rsyslogd's userid changed to 101
+Feb 13 10:46:30 2c48fcd7ae09 rsyslogd-2039: Could no open output pipe '/dev/xconsole': Permission denied [try http://www.rsyslog.com/e/2039 ]
+Feb 13 10:46:40 2c48fcd7ae09 dovecot: master: Dovecot v2.2.9 starting up
+Feb 13 10:46:40 2c48fcd7ae09 dovecot: ssl-params: Generating SSL parameters
+Feb 13 10:47:35 2c48fcd7ae09 dovecot: ssl-params: SSL parameters regeneration completed

@@ -17,12 +17,7 @@ services:
       default:
         ipv4_address: 192.168.20.2
 
-  web2:
-    container_name: web2
-    image: nginx:latest
-    networks:
-      default:
-        ipv4_address: 192.168.20.3
+
 
   lb:
     container_name: my_lb
@@ -46,9 +41,8 @@ services:
         -f"*,955;no-tls" 
         -b"roundcube,955;;dns;"
         -f"*,3306;no-tls"
-        -b"db,3306;;dns;"
-        -f"*,8888;no-tls" 
-        -b"web2,80;;dns;"'
+        -b"db,3306;;dns;"'
+
     ports:
       - 8000:8000
       - 443:443
@@ -59,13 +53,13 @@ services:
       - 933:933
       - 955:955
       - 3306:3306
-      - 8888:80
+
 
     volumes:
       - lb-data:/volume
     networks:
       default:
-        ipv4_address: 192.168.20.4
+        ipv4_address: 192.168.20.3
   
   roundcube:
     image: marooou/postfix-roundcube
@@ -84,7 +78,7 @@ services:
 
     networks:
       default:
-        ipv4_address: 192.168.20.5
+        ipv4_address: 192.168.20.4
 
   portainer:
     image: portainer/portainer-ce:latest
@@ -101,7 +95,7 @@ services:
 
     networks:
       default:
-        ipv4_address: 192.168.20.6
+        ipv4_address: 192.168.20.5
 
 
   db:
@@ -117,7 +111,7 @@ services:
       - ./conf-db:/var/lib/mysql
     networks:
       default:
-        ipv4_address: 192.168.20.7
+        ipv4_address: 192.168.20.6
 
 
 

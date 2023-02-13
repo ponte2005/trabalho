@@ -1,0 +1,28 @@
+Feb 11 12:47:05 3d099f519128 spamc[672]: connect to spamd on 127.0.0.1 failed, retrying (#1 of 3): Connection refused
+Feb 11 12:47:05 3d099f519128 spamc[672]: connect to spamd on ::1 failed, retrying (#1 of 3): Cannot assign requested address
+Feb 11 12:47:06 3d099f519128 spamc[672]: connect to spamd on 127.0.0.1 failed, retrying (#2 of 3): Connection refused
+Feb 11 12:47:06 3d099f519128 spamc[672]: connect to spamd on ::1 failed, retrying (#2 of 3): Cannot assign requested address
+Feb 11 12:47:07 3d099f519128 spamc[672]: connect to spamd on 127.0.0.1 failed, retrying (#3 of 3): Connection refused
+Feb 11 12:47:07 3d099f519128 spamc[672]: connect to spamd on ::1 failed, retrying (#3 of 3): Cannot assign requested address
+Feb 11 12:47:07 3d099f519128 spamc[672]: connection attempt to spamd aborted after 3 retries
+Feb 11 12:52:15 3d099f519128 spamc[702]: connect to spamd on 127.0.0.1 failed, retrying (#1 of 3): Connection refused
+Feb 11 12:52:15 3d099f519128 spamc[702]: connect to spamd on ::1 failed, retrying (#1 of 3): Cannot assign requested address
+Feb 11 12:52:16 3d099f519128 spamc[702]: connect to spamd on 127.0.0.1 failed, retrying (#2 of 3): Connection refused
+Feb 11 12:52:16 3d099f519128 spamc[702]: connect to spamd on ::1 failed, retrying (#2 of 3): Cannot assign requested address
+Feb 11 12:52:17 3d099f519128 spamc[702]: connect to spamd on 127.0.0.1 failed, retrying (#3 of 3): Connection refused
+Feb 11 12:52:17 3d099f519128 spamc[702]: connect to spamd on ::1 failed, retrying (#3 of 3): Cannot assign requested address
+Feb 11 12:52:17 3d099f519128 spamc[702]: connection attempt to spamd aborted after 3 retries
+Feb 11 13:01:34 3d099f519128 spamc[733]: connect to spamd on 127.0.0.1 failed, retrying (#1 of 3): Connection refused
+Feb 11 13:01:34 3d099f519128 spamc[733]: connect to spamd on ::1 failed, retrying (#1 of 3): Cannot assign requested address
+Feb 11 13:01:35 3d099f519128 spamc[733]: connect to spamd on 127.0.0.1 failed, retrying (#2 of 3): Connection refused
+Feb 11 13:01:35 3d099f519128 spamc[733]: connect to spamd on ::1 failed, retrying (#2 of 3): Cannot assign requested address
+Feb 11 13:01:36 3d099f519128 spamc[733]: connect to spamd on 127.0.0.1 failed, retrying (#3 of 3): Connection refused
+Feb 11 13:01:36 3d099f519128 spamc[733]: connect to spamd on ::1 failed, retrying (#3 of 3): Cannot assign requested address
+Feb 11 13:01:36 3d099f519128 spamc[733]: connection attempt to spamd aborted after 3 retries
+Feb 11 13:05:23 3d099f519128 spamc[881]: connect to spamd on 127.0.0.1 failed, retrying (#1 of 3): Connection refused
+Feb 11 13:05:23 3d099f519128 spamc[881]: connect to spamd on ::1 failed, retrying (#1 of 3): Cannot assign requested address
+Feb 11 13:05:24 3d099f519128 spamc[881]: connect to spamd on 127.0.0.1 failed, retrying (#2 of 3): Connection refused
+Feb 11 13:05:24 3d099f519128 spamc[881]: connect to spamd on ::1 failed, retrying (#2 of 3): Cannot assign requested address
+Feb 11 13:05:25 3d099f519128 spamc[881]: connect to spamd on 127.0.0.1 failed, retrying (#3 of 3): Connection refused
+Feb 11 13:05:25 3d099f519128 spamc[881]: connect to spamd on ::1 failed, retrying (#3 of 3): Cannot assign requested address
+Feb 11 13:05:25 3d099f519128 spamc[881]: connection attempt to spamd aborted after 3 retries

@@ -71,3 +71,14 @@
 [Sat Feb 11 10:46:04.131486 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'
 [Sat Feb 11 12:23:32.753039 2023] [mpm_prefork:notice] [pid 635] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
 [Sat Feb 11 12:23:32.753074 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Feb 11 12:42:49.577957 2023] [mpm_prefork:notice] [pid 635] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
+[Sat Feb 11 12:42:49.577984 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Feb 11 12:44:39.371425 2023] [:error] [pid 640] [client 192.168.20.1:46782] PostfixAdmin login failed (username: root), referer: http://pap.local/postfixadmin/login.php
+[Sat Feb 11 12:52:29.113370 2023] [:error] [pid 680] [client 192.168.20.1:59528] Invalid query: FUNCTION mail.FROM_BASE64 does not exist, referer: http://pap.local/postfixadmin/list.php?table=domain
+[Sat Feb 11 12:52:29.113395 2023] [:error] [pid 680] [client 192.168.20.1:59528] caused by query:  SELECT id,domain,mailbox,src_server,src_auth,src_user,FROM_BASE64(src_password) AS src_password,src_folder,poll_time,CASE fetchall WHEN '1' THEN '1'    WHEN '0' THEN '0'   END as fetchall,CASE fetchall WHEN '1' THEN 'YES' WHEN '0' THEN 'NO' END as _fetchall,CASE keep WHEN '1' THEN '1'    WHEN '0' THEN '0'   END as keep,CASE keep WHEN '1' THEN 'YES' WHEN '0' THEN 'NO' END as _keep,protocol,CASE usessl WHEN '1' THEN '1'    WHEN '0' THEN '0'   END as usessl,CASE usessl WHEN '1' THEN 'YES' WHEN '0' THEN 'NO' END as _usessl,CASE sslcertck WHEN '1' THEN '1'    WHEN '0' THEN '0'   END as sslcertck,CASE sslcertck WHEN '1' THEN 'YES' WHEN '0' THEN 'NO' END as _sslcertck,date,returned_text,CASE active WHEN '1' THEN '1'    WHEN '0' THEN '0'   END as active,CASE active WHEN '1' THEN 'YES' WHEN '0' THEN 'NO' END as _active,DATE_FORMAT(modified, '%Y-%m-%d') AS modified, modified AS _modified,1 as _can_edit,1 as _can_delete  FROM fetchmail   WHERE ( 1=1 )  AND  domain IN ('pap.local')  ORDER BY domain, mailbox, referer: http://pap.local/postfixadmin/list.php?table=domain
+[Mon Feb 13 10:22:39.944786 2023] [mpm_prefork:notice] [pid 634] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
+[Mon Feb 13 10:22:39.944907 2023] [core:notice] [pid 634] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Feb 13 10:26:25.737412 2023] [mpm_prefork:notice] [pid 635] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
+[Mon Feb 13 10:26:25.737433 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Feb 13 10:46:39.481378 2023] [mpm_prefork:notice] [pid 635] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
+[Mon Feb 13 10:46:39.481416 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'

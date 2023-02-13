@@ -28,3 +28,7 @@ Feb 11 10:14:08 fd47345c2c93 rsyslogd: imklog: cannot open kernel log (/proc/kms
 Feb 11 10:22:34 85549ab35f67 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
 Feb 11 10:45:54 4a20039ee23e rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
 Feb 11 12:23:23 27229ff56a72 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 11 12:42:40 3d099f519128 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 13 10:22:30 13d7613f3d97 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 13 10:26:16 873aa9e1d889 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Feb 13 10:46:30 2c48fcd7ae09 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
