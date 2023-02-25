@@ -82,3 +82,10 @@
 [Mon Feb 13 10:26:25.737433 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'
 [Mon Feb 13 10:46:39.481378 2023] [mpm_prefork:notice] [pid 635] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
 [Mon Feb 13 10:46:39.481416 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Feb 25 10:41:09.188470 2023] [core:warn] [pid 634] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 25 10:41:09.190374 2023] [mpm_prefork:notice] [pid 634] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
+[Sat Feb 25 10:41:09.190398 2023] [core:notice] [pid 634] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Feb 25 10:42:48.631353 2023] [mpm_prefork:notice] [pid 635] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
+[Sat Feb 25 10:42:48.631381 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Feb 25 10:44:51.975453 2023] [mpm_prefork:notice] [pid 635] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.22 configured -- resuming normal operations
+[Sat Feb 25 10:44:51.975480 2023] [core:notice] [pid 635] AH00094: Command line: '/usr/sbin/apache2'

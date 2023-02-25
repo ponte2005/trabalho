@@ -39,9 +39,7 @@ services:
         -f"*,933;no-tls" 
         -b"roundcube,933;;dns;"
         -f"*,955;no-tls" 
-        -b"roundcube,955;;dns;"
-        -f"*,3306;no-tls"
-        -b"db,3306;;dns;"'
+        -b"roundcube,955;;dns;"'
 
     ports:
       - 8000:8000
@@ -52,7 +50,6 @@ services:
       - 465:465
       - 933:933
       - 955:955
-      - 3306:3306
 
 
     volumes:
@@ -106,6 +103,9 @@ services:
       MYSQL_USER: 'admin'
       MYSQL_PASSWORD: 'Passw0rd'
       MYSQL_ROOT_PASSWORD: 'Passw0rd'
+    ports:
+      - '3306:3306'
+
 
     volumes:
       - ./conf-db:/var/lib/mysql
